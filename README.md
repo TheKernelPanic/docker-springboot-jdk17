@@ -5,6 +5,7 @@ ___
 ## ENVIRONMENT VARIABLES 
 
 __JAR_FILENAME__: Name of jar file on work directory
+__LOGS_DIRECTORY__: Directory for application logs (Default value)
 
 ## EXAMPLE 
 

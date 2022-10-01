@@ -15,6 +15,7 @@ COPY entrypoint.sh /root/entrypoint.sh
 RUN chmod +x /root/entrypoint.sh
 
 ENV JAVA_HOME=/usr/lib/jvm/java-1.$JAVA_VERSION.0-openjdk-amd64
+ENV LOGS_DIRECTORY=/var/log/springboot
 
 WORKDIR /usr/share/application
 
